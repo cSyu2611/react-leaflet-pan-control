@@ -1,0 +1,26 @@
+{
+  "name": "react-leaflet-pan-control",
+  "version": "0.0.3",
+  "scripts": {
+    "build": "react-scripts build",
+    "transpile": "babel src -d dist --copy-files",
+    "prepublishOnly": "yarn run transpile"
+  },
+  "main": "./dist/index.js",
+  "author": "csyu2611",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "react-scripts": "^4.0.3"
+  },
+  "peerDependencies": {
+    "leaflet": "^1.7.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-leaflet": "^3.1.0"
+  }
+}
